@@ -1,0 +1,20 @@
+{
+  "name": "CDP",
+  "description": "CDP",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon web.js"
+  },
+  "dependencies": {
+    "body-parser": "1.9.0",
+    "cors": "^2.8.4",
+    "ejs": "^1.0.0",
+    "express": "4.9.5",
+    "express-myconnection": "*",
+    "express-validator": "^2.6.0",
+    "mysql": "*",
+    "nodemon": "^1.12.1"
+  }
+}
